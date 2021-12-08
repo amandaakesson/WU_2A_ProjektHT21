@@ -1,0 +1,26 @@
+#wrapper2 {
+    grid-area: di;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px;
+
+    grid-template-areas:
+        "n1 h1 n2"
+    ;
+
+}
+
+#a1 {
+    background: powderblue;
+    grid-area: n1;
+}
+
+#header1 {
+    background: beige;
+    grid-area: h1;
+}
+
+#a2 {
+    background: plum;
+    grid-area: n2;
+}
