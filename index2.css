@@ -1,3 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 100px 350px 100px 250px 100px 250px 400px;
+
+    grid-template-areas:
+        "di di di"
+        "s1 s1 s1"
+        "s2 s3 s4"
+        "s5 s5 s5"
+        "s6 s7 s8"
+        "s9 s9 s9"
+        "s10 s11 s12"
+        "fo fo fo"
+    ;
+
+}
+
+
+#section_1 {
+    background: rgb(240, 116, 137);
+    grid-area: s1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_2 {
+    background: rgb(255, 170, 184);
+    grid-area: s2;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_3 {
+    background: rgb(236, 158, 171);
+    grid-area: s3;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_4 {
+    background: rgb(182, 130, 139);
+    grid-area: s4;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_5 {
+    background: rgb(164, 104, 114);
+    grid-area: s5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_6 {
+    background: rgb(226, 135, 151);
+    grid-area: s6;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_7 {
+    background: rgb(247, 179, 190);
+    grid-area: s7;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_8 {
+    background: rgb(238, 159, 172);
+    grid-area: s8;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_9 {
+    background: rgb(225, 141, 155);
+    grid-area: s9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_10 {
+    background: rgb(186, 122, 133);
+    grid-area: s10;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_11 {
+    background: rgb(255, 194, 204);
+    grid-area: s11;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_12 {
+    background: rgb(255, 220, 226);
+    grid-area: s12;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: rgb(243, 176, 198);
+    grid-area: fo;
+    color: white;
+}
+
 #wrapper2 {
     grid-area: di;
     display: grid;
@@ -13,14 +145,17 @@
 #a1 {
     background: powderblue;
     grid-area: n1;
+    color: black;
 }
 
 #header1 {
     background: beige;
     grid-area: h1;
+    color: black;
 }
 
 #a2 {
     background: plum;
     grid-area: n2;
+    color: black;
 }

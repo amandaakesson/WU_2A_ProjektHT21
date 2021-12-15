@@ -9,7 +9,7 @@
     height: 70vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 120px 500px 500px 400px;
+    grid-template-rows: 120px 500px 300px 400px;
 
     grid-template-areas:
         "di di"
@@ -33,6 +33,10 @@ footer {
 #section_1 {
     background: rgb(240, 116, 137);
     grid-area: s1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #section_2 {
@@ -55,14 +59,17 @@ footer {
 #a1 {
     background: powderblue;
     grid-area: n1;
+    color: black;
 }
 
 #header1 {
     background: beige;
     grid-area: h1;
+    color: black;
 }
 
 #a2 {
     background: plum;
     grid-area: n2;
+    color: black;
 }
