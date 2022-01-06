@@ -5,20 +5,21 @@
 }
 
 #wrapper {
-    width: 100vw;
-    height: 70vw;
+    width: 100%;
+    height: 200%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 120px 100px 350px 100px 250px 100px 250px 400px;
+    grid-template-rows: 120px 100px 100px 350px 100px 250px 100px 250px 290px;
 
     grid-template-areas:
         "di di di"
         "s1 s1 s1"
+        "i3 i3 i3"
         "s2 s3 s4"
         "s5 s5 s5"
         "s6 s7 s8"
         "s9 s9 s9"
-        "s10 s11 s12"
+        "i0 i1 i2"
         "fo fo fo"
     ;
 
@@ -26,108 +27,144 @@
 
 
 #section_1 {
-    background: rgb(240, 116, 137);
+    background: rgb(51, 50, 51);
     grid-area: s1;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%
 }
 
 #section_2 {
-    background: rgb(255, 170, 184);
+    background: rgb(51, 50, 51);
     grid-area: s2;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_3 {
-    background: rgb(236, 158, 171);
+    background: rgb(51, 50, 51);
     grid-area: s3;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_4 {
-    background: rgb(182, 130, 139);
+    background: rgb(51, 50, 51);
     grid-area: s4;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_5 {
-    background: rgb(164, 104, 114);
+    background: rgb(51, 50, 51);
     grid-area: s5;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%
 }
 
 #section_6 {
-    background: rgb(226, 135, 151);
+    background: rgb(51, 50, 51);
     grid-area: s6;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_7 {
-    background: rgb(247, 179, 190);
+    background: rgb(51, 50, 51);
     grid-area: s7;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_8 {
-    background: rgb(238, 159, 172);
+    background: rgb(51, 50, 51);
     grid-area: s8;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_9 {
-    background: rgb(225, 141, 155);
+    background: rgb(51, 50, 51);
     grid-area: s9;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%
 }
 
 #section_10 {
-    background: rgb(186, 122, 133);
-    grid-area: s10;
+    background: rgb(51, 50, 51);
+    grid-area: i0;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_11 {
-    background: rgb(255, 194, 204);
-    grid-area: s11;
+    background: rgb(51, 50, 51);
+    grid-area: i1;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_12 {
-    background: rgb(255, 220, 226);
-    grid-area: s12;
+    background: rgb(51, 50, 51);
+    grid-area: i2;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#section_13 {
+    background: rgb(51, 50, 51);
+    grid-area: i3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%
 }
 
 footer {
-    background: rgb(243, 176, 198);
+    background: rgb(51, 50, 51);
     grid-area: fo;
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #wrapper2 {
@@ -143,19 +180,28 @@ footer {
 }
 
 #a1 {
-    background: powderblue;
+    background: rgb(253, 253, 253);
     grid-area: n1;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
-#header1 {
-    background: beige;
+#a3 {
+    background: url(../img/Logga.png);
+    background-repeat: no-repeat;
+    background-position: center;
     grid-area: h1;
-    color: black;
 }
 
 #a2 {
-    background: plum;
+    background: rgb(253, 253, 253);
     grid-area: n2;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }

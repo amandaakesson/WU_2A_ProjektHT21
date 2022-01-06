@@ -5,11 +5,11 @@
 }
 
 #wrapper {
-    width: 100vw;
-    height: 70vw;
+    width: 100%;
+    height: 200%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 120px 300px 300px 300px 400px;
+    grid-template-rows: 120px 300px 300px 300px 290px;
 
     grid-template-areas:
         "di di"
@@ -23,41 +23,60 @@
 
 
 footer {
-    background: rgb(243, 176, 198);
+    background: rgb(51, 50, 51);
     grid-area: fo;
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_1 {
-    background: rgb(240, 116, 137);
+    background: rgb(51, 50, 51);
     grid-area: s1;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_2 {
-    background: rgb(255, 170, 184);
+    background: url(../img/omoss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: s2;
 }
 
 #section_3 {
-    background: rgb(186, 132, 141);
+    background: url(../img/historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: s3;
 }
 
 #section_4 {
-    background: rgb(159, 104, 113);
+    background: rgb(51, 50, 51);
     grid-area: s4;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_5 {
-    background: rgb(167, 138, 143);
+    background: rgb(51, 50, 51);
     grid-area: s5;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section_6 {
-    background: rgb(240, 146, 162);
+    background: url(../img/kartor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: s6;
 }
 
@@ -70,23 +89,31 @@ footer {
     grid-template-areas:
         "n1 h1 n2"
     ;
-
 }
 
 #a1 {
-    background: powderblue;
+    background: rgb(253, 253, 253);
     grid-area: n1;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
-#header1 {
-    background: beige;
+#a3 {
+    background: url(../img/Logga.png);
+    background-repeat: no-repeat;
+    background-position: center;
     grid-area: h1;
-    color: black;
 }
 
 #a2 {
-    background: plum;
+    background: rgb(253, 253, 253);
     grid-area: n2;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
